@@ -1,0 +1,37 @@
+.navbar
+{
+	background-color: $secondary;
+	margin-bottom: 0px;
+	border: 0px;
+	box-shadow: 5px 2px 2px darken($primary,3%);
+}
+
+#navigator
+{
+	li
+	{	
+		top:10px;
+		border-right: solid 2px white;
+		&:last-child
+		{
+			border-right: none;
+			padding-right: 0px
+		}
+		&:first-child
+		{
+			padding-left: 0px;
+		}
+	}
+	a
+	{
+		padding-top: 5px;
+		padding-bottom:5px;
+		color:white;
+		text-align: center;
+		background-color: $secondary;
+		&:hover
+		{
+			color: darken($primary, 20%);
+		}
+	}
+}
